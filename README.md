@@ -12,20 +12,24 @@ This open-source repository compares **shared web hosting**, **cheap Linux VPS s
 
 ---
 
-## Why "Cheap" Advertised Prices Mislead
+## Cheapest Plans That Don't Spike on Renewal (`$1–$5/mo` Flat Pricing)
 
-Example from published US pricing:
-
-| Plan | Advertised Promo | Promo Term | Renewal Rate | Renewal Spike | 36-Month Total | Effective Monthly |
+| Plan | Type | Monthly Rate | Renewal Spike | 1-Year Total | 3-Year Total | Lock-in |
 | --- | --- | --- | --- | --- | --- | --- |
-| **InterServer Standard** | `$2.50/mo` | 12 mo (Price Lock) | `$2.50/mo` | `0.0%` | `$90.00` | **`$2.50/mo`** |
-| **Hostinger Premium** | `$2.99/mo` | 48 mo (Prepaid) | `$7.99/mo` | `+167.2%` | `$107.64` | **`$2.99/mo`** |
-| **Namecheap Stellar Plus** | `$2.98/mo` | 24 mo | `$6.48/mo` | `+117.4%` | `$149.28` | **`$4.15/mo`** |
-| **Hetzner Cloud CX22 (US)** | `$4.99/mo` | 1 mo (No lock-in) | `$4.99/mo` | `0.0%` | `$179.64` | **`$4.99/mo`** |
-| **IONOS Web Hosting Plus** | `$1.00/mo` | 12 mo | `$14.00/mo` | `+1300.0%` | `$348.00` | **`$9.67/mo`** |
-| **SiteGround StartUp** | `$2.99/mo` | 12 mo | `$17.99/mo` | `+501.7%` | `$467.64` | **`$12.99/mo`** |
+| **NearlyFreeSpeech Pay-As-You-Go** | Shared / PHP / Python | **`$1.00/mo`** | `0.0%` | `$12.00` | `$36.00` | None (1 mo) |
+| **RackNerd 1GB KVM** | Linux VPS | **`$1.08/mo`** | `0.0%` | `$12.96` | `$38.88` | 12 mo |
+| **IONOS VPS Linux XS** | Linux VPS | **`$2.00/mo`** | `0.0%` | `$24.00` | `$72.00` | None (1 mo) |
+| **BuyVM KVM Slice 512MB** | Linux VPS | **`$2.00/mo`** | `0.0%` | `$24.00` | `$72.00` | None (1 mo) |
+| **InterServer Standard** | Shared (Unlimited) | **`$2.50/mo`** | `0.0%` | `$30.00` | `$90.00` | None (1 mo) |
+| **Hetzner Cloud CX22 (US)** | Linux VPS (4 GB RAM) | **`$4.99/mo`** | `0.0%` | `$59.88` | `$179.64` | None (1 mo) |
 
-> **Key takeaway:** A `$1.00/mo` shared plan (`IONOS Plus`) costs **`$348.00`** over 3 years (`$9.67/mo` effective) — nearly **2x more** than a flat `$4.99/mo` 4GB RAM Linux VPS from Hetzner (`$179.64` over 3 years) and almost **4x more** than InterServer (`$90.00`).
+### Watch Out for "$1–$3/mo" Promo Traps
+
+| Plan | Advertised Promo | Promo Term | Renewal Rate | Renewal Spike | 36-Mo Effective |
+| --- | --- | --- | --- | --- | --- |
+| **IONOS Web Hosting Plus** | `$1.00/mo` | 12 mo | `$14.00/mo` | `+1300.0%` | **`$9.67/mo`** (`$348.00`) |
+| **Bluehost Basic** | `$2.95/mo` | 12 mo | `$11.99/mo` | `+306.4%` | **`$8.98/mo`** (`$323.16`) |
+| **SiteGround StartUp** | `$2.99/mo` | 12 mo | `$17.99/mo` | `+501.7%` | **`$12.99/mo`** (`$467.64`) |
 
 ---
 

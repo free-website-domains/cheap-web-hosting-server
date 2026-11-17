@@ -199,6 +199,28 @@
       "us_locations": ["50+ US Edge PoPs"],
       "categories": ["paas"],
       "notes": "Workers & Pages offer generous free tier for static/edge sites and a flat $5/mo Paid plan for serverless compute."
+    },
+    {
+      "id": "buyvm",
+      "name": "BuyVM (FranTech)",
+      "website": "https://buyvm.net",
+      "pricing_url": "https://buyvm.net/kvm-dedicated-server-slices/",
+      "headquarters": "United States (Las Vegas, NV)",
+      "us_datacenters": true,
+      "us_locations": ["Las Vegas, NV", "New York, NY", "Miami, FL"],
+      "categories": ["vps"],
+      "notes": "Flat month-to-month KVM VPS slices starting at $2.00/mo with unmetered bandwidth and zero renewal hikes."
+    },
+    {
+      "id": "nearlyfreespeech",
+      "name": "NearlyFreeSpeech.NET",
+      "website": "https://www.nearlyfreespeech.net",
+      "pricing_url": "https://www.nearlyfreespeech.net/services/pricing",
+      "headquarters": "United States",
+      "us_datacenters": true,
+      "us_locations": ["United States"],
+      "categories": ["shared"],
+      "notes": "Pay-as-you-go PHP, MySQL, Python, and static hosting with no contracts and no renewal price spikes; small sites typically run ~$1/mo."
     }
   ]
 }

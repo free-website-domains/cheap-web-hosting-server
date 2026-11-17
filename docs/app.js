@@ -147,6 +147,7 @@ function render() {
   const maxBudget = budgetVal === "all" ? Infinity : Number(budgetVal);
   const months = Number(document.getElementById("horizon").value);
   const websites = Math.max(1, Number(document.getElementById("websites").value || 1));
+  const noSpikeOnly = document.getElementById("noSpikeOnly").checked;
   const usOnly = document.getElementById("usOnly").checked;
   const monthlyOnly = document.getElementById("monthlyOnly").checked;
   const cpanelOnly = document.getElementById("cpanelOnly").checked;
@@ -159,6 +160,7 @@ function render() {
     if (cpanelOnly && plan.control_panel !== "cPanel") continue;
 
     const cost = calculateTrueCost(plan, months, websites, monthlyOnly);
+    if (noSpikeOnly && cost.spikePct > 0) continue;
     if (cost.effectiveMonthly > maxBudget) continue;
 
     rows.push({ plan, cost });
@@ -224,8 +226,8 @@ function populateDiffSelects() {
   ).join("");
   selectA.innerHTML = optionsHtml;
   selectB.innerHTML = optionsHtml;
-  selectA.value = "ionos-plus";
-  selectB.value = "hetzner-cx22-us";
+  selectA.value = "racknerd-1gb-kvm";
+  selectB.value = "interserver-standard";
 }
 
 async function loadHostingData() {
@@ -258,6 +260,7 @@ async function init() {
     "budget",
     "horizon",
     "websites",
+    "noSpikeOnly",
     "usOnly",
     "monthlyOnly",
     "cpanelOnly",
