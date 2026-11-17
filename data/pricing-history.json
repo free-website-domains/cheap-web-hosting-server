@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-17",
+  "notes": "Tracked renewal spikes and notable pricing structure changes across US-market hosting providers.",
+  "snapshots": [
+    {
+      "date": "2026-11-17",
+      "plan_id": "ionos-plus",
+      "advertised_monthly_usd": 1.00,
+      "promo_term_months": 12,
+      "renewal_monthly_usd": 14.00,
+      "effective_36m_monthly_usd": 9.67,
+      "renewal_spike_pct": 1300.0,
+      "observation": "First 12 months at $1/mo ($12), followed by 24 months at $14/mo ($336) = $348 total over 36 months."
+    },
+    {
+      "date": "2026-11-17",
+      "plan_id": "siteground-startup",
+      "advertised_monthly_usd": 2.99,
+      "promo_term_months": 12,
+      "renewal_monthly_usd": 17.99,
+      "effective_36m_monthly_usd": 12.99,
+      "renewal_spike_pct": 501.7,
+      "observation": "Lowest effective cost requires 1-year promo ($35.88) followed by $17.99/mo renewals ($431.76 for years 2-3)."
+    },
+    {
+      "date": "2026-11-17",
+      "plan_id": "hostinger-premium",
+      "advertised_monthly_usd": 2.99,
+      "promo_term_months": 48,
+      "renewal_monthly_usd": 7.99,
+      "effective_36m_monthly_usd": 2.99,
+      "renewal_spike_pct": 167.2,
+      "observation": "Advertised $2.99/mo requires 48-month upfront prepayment ($143.52); 12-month term is higher and renews at $7.99/mo."
+    },
+    {
+      "date": "2026-11-17",
+      "plan_id": "interserver-standard",
+      "advertised_monthly_usd": 2.50,
+      "promo_term_months": 12,
+      "renewal_monthly_usd": 2.50,
+      "effective_36m_monthly_usd": 2.50,
+      "renewal_spike_pct": 0.0,
+      "observation": "Price Lock Guarantee keeps renewal rate identical to initial rate ($2.50/mo)."
+    },
+    {
+      "date": "2026-11-17",
+      "plan_id": "hetzner-cx22-us",
+      "advertised_monthly_usd": 4.99,
+      "promo_term_months": 1,
+      "renewal_monthly_usd": 4.99,
+      "effective_36m_monthly_usd": 4.99,
+      "renewal_spike_pct": 0.0,
+      "observation": "Flat month-to-month cloud VPS pricing in Ashburn, VA and Hillsboro, OR with zero renewal increase."
+    }
+  ]
+}

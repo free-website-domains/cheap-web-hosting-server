@@ -1,0 +1,8 @@
+# Cheap Web Hosting Server & True Cost Calculator
+
+> Open-source comparison of cheap web hosting and Linux VPS servers based on real 1-3 year total cost, renewal rates, US data centers, and technical stack support.
+
+- Web App: https://free-website-domains.github.io/cheap-web-hosting-server/
+- GitHub Repository: https://github.com/free-website-domains/cheap-web-hosting-server
+- Structured Data: /data/providers.json, /data/plans.json, /data/pricing-history.json
+- CLI Tool: python3 hosting_finder.py --months 36 --max-budget 5 --us-only

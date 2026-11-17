@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-17",
+  "providers": [
+    {
+      "id": "ionos",
+      "name": "IONOS",
+      "website": "https://www.ionos.com",
+      "pricing_url": "https://www.ionos.com/hosting/web-hosting",
+      "headquarters": "Germany / US",
+      "us_datacenters": true,
+      "us_locations": ["Newark, NJ", "Las Vegas, NV", "Lenexa, KS"],
+      "categories": ["shared", "vps", "wordpress"],
+      "notes": "Low 1st-year promotional rates with steep 2nd-year renewal increases on shared plans; VPS plans use predictable flat monthly pricing."
+    },
+    {
+      "id": "hostinger",
+      "name": "Hostinger",
+      "website": "https://www.hostinger.com",
+      "pricing_url": "https://www.hostinger.com/web-hosting",
+      "headquarters": "Lithuania",
+      "us_datacenters": true,
+      "us_locations": ["Phoenix, AZ", "Boston, MA", "Asheville, NC"],
+      "categories": ["shared", "vps", "wordpress"],
+      "notes": "Lowest advertised monthly rates require 48-month upfront prepayment; renewals increase significantly after initial term."
+    },
+    {
+      "id": "namecheap",
+      "name": "Namecheap",
+      "website": "https://www.namecheap.com",
+      "pricing_url": "https://www.namecheap.com/hosting/shared/",
+      "headquarters": "United States (Phoenix, AZ)",
+      "us_datacenters": true,
+      "us_locations": ["Phoenix, AZ", "Atlanta, GA"],
+      "categories": ["shared", "vps", "wordpress"],
+      "notes": "Includes cPanel on shared plans, reasonable renewal rates compared to EIG/Newfold brands, and US-based support."
+    },
+    {
+      "id": "dreamhost",
+      "name": "DreamHost",
+      "website": "https://www.dreamhost.com",
+      "pricing_url": "https://www.dreamhost.com/hosting/shared/",
+      "headquarters": "United States (Los Angeles, CA)",
+      "us_datacenters": true,
+      "us_locations": ["Ashburn, VA", "Hillsboro, OR"],
+      "categories": ["shared", "wordpress", "vps"],
+      "notes": "US-based WordPress-recommended host with transparent month-to-month option and custom control panel."
+    },
+    {
+      "id": "bluehost",
+      "name": "Bluehost",
+      "website": "https://www.bluehost.com",
+      "pricing_url": "https://www.bluehost.com/hosting/shared",
+      "headquarters": "United States (Jacksonville, FL)",
+      "us_datacenters": true,
+      "us_locations": ["Provo, UT"],
+      "categories": ["shared", "wordpress"],
+      "notes": "Popular WordPress beginner host; requires 12–36 month upfront payment for promo pricing and renews substantially higher."
+    },
+    {
+      "id": "interserver",
+      "name": "InterServer",
+      "website": "https://www.interserver.net",
+      "pricing_url": "https://www.interserver.net/webhosting/",
+      "headquarters": "United States (Secaucus, NJ)",
+      "us_datacenters": true,
+      "us_locations": ["Secaucus, NJ", "Los Angeles, CA"],
+      "categories": ["shared", "vps", "wordpress"],
+      "notes": "Known for its Price Lock Guarantee on Standard Web Hosting and true month-to-month billing with no renewal spike."
+    },
+    {
+      "id": "siteground",
+      "name": "SiteGround",
+      "website": "https://www.siteground.com",
+      "pricing_url": "https://www.siteground.com/web-hosting.htm",
+      "headquarters": "Bulgaria",
+      "us_datacenters": true,
+      "us_locations": ["Council Bluffs, IA", "Ashburn, VA", "Dallas, TX"],
+      "categories": ["shared", "wordpress"],
+      "notes": "Google Cloud infrastructure with strong WordPress tooling, but very high renewal rates after year 1."
+    },
+    {
+      "id": "greengeeks",
+      "name": "GreenGeeks",
+      "website": "https://www.greengeeks.com",
+      "pricing_url": "https://www.greengeeks.com/web-hosting",
+      "headquarters": "United States (Agoura Hills, CA)",
+      "us_datacenters": true,
+      "us_locations": ["Chicago, IL", "Phoenix, AZ"],
+      "categories": ["shared", "wordpress"],
+      "notes": "cPanel shared hosting with LiteSpeed and US data centers; promo requires annual/multi-year prepay."
+    },
+    {
+      "id": "a2hosting",
+      "name": "hosting.com (formerly A2 Hosting)",
+      "website": "https://hosting.com",
+      "pricing_url": "https://hosting.com/hosting/",
+      "headquarters": "United States (Ann Arbor, MI)",
+      "us_datacenters": true,
+      "us_locations": ["Michigan", "Arizona"],
+      "categories": ["shared", "vps", "wordpress"],
+      "notes": "Developer-friendly shared & VPS hosting supporting Node.js, Python, PHP, and SSH access."
+    },
+    {
+      "id": "hetzner",
+      "name": "Hetzner",
+      "website": "https://www.hetzner.com",
+      "pricing_url": "https://www.hetzner.com/cloud/",
+      "headquarters": "Germany",
+      "us_datacenters": true,
+      "us_locations": ["Ashburn, VA", "Hillsboro, OR"],
+      "categories": ["vps"],
+      "notes": "Best-in-class price-to-performance Linux VPS with US East/West regions and zero renewal price tricks."
+    },
+    {
+      "id": "vultr",
+      "name": "Vultr",
+      "website": "https://www.vultr.com",
+      "pricing_url": "https://www.vultr.com/pricing/",
+      "headquarters": "United States (West Palm Beach, FL)",
+      "us_datacenters": true,
+      "us_locations": ["New Jersey", "Chicago", "Dallas", "Atlanta", "Seattle", "Silicon Valley", "Los Angeles", "Miami"],
+      "categories": ["vps"],
+      "notes": "Hourly/monthly cloud VPS with extensive US locations, flat pricing, and IPv4/IPv6 options."
+    },
+    {
+      "id": "digitalocean",
+      "name": "DigitalOcean",
+      "website": "https://www.digitalocean.com",
+      "pricing_url": "https://www.digitalocean.com/pricing/droplets",
+      "headquarters": "United States (New York, NY)",
+      "us_datacenters": true,
+      "us_locations": ["New York, NY", "San Francisco, CA", "Atlanta, GA"],
+      "categories": ["vps", "paas"],
+      "notes": "Developer-friendly Droplets and App Platform with predictable flat monthly pricing."
+    },
+    {
+      "id": "linode",
+      "name": "Akamai (Linode)",
+      "website": "https://www.linode.com",
+      "pricing_url": "https://www.linode.com/pricing/",
+      "headquarters": "United States (Philadelphia, PA)",
+      "us_datacenters": true,
+      "us_locations": ["Newark, NJ", "Atlanta, GA", "Dallas, TX", "Fremont, CA", "Chicago, IL", "Seattle, WA"],
+      "categories": ["vps"],
+      "notes": "Reliable Linux VPS (Nanode 1GB at $5/mo flat) with 24/7 human support and no renewal hikes."
+    },
+    {
+      "id": "racknerd",
+      "name": "RackNerd",
+      "website": "https://www.racknerd.com",
+      "pricing_url": "https://www.racknerd.com/kvm-vps",
+      "headquarters": "United States (Rancho Cucamonga, CA)",
+      "us_datacenters": true,
+      "us_locations": ["Los Angeles, CA", "San Jose, CA", "Seattle, WA", "Chicago, IL", "Dallas, TX", "New York, NY", "Ashburn, VA"],
+      "categories": ["vps"],
+      "notes": "Budget KVM VPS provider popular on LowEndBox/Reddit; annual plans often renew at the same low rate."
+    },
+    {
+      "id": "ovhcloud",
+      "name": "OVHcloud",
+      "website": "https://us.ovhcloud.com",
+      "pricing_url": "https://us.ovhcloud.com/vps/",
+      "headquarters": "France (US subsidiary in Reston, VA)",
+      "us_datacenters": true,
+      "us_locations": ["Vint Hill, VA", "Hillsboro, OR"],
+      "categories": ["vps", "shared"],
+      "notes": "Unmetered bandwidth VPS with built-in DDoS protection and US data centers."
+    },
+    {
+      "id": "flyio",
+      "name": "Fly.io",
+      "website": "https://fly.io",
+      "pricing_url": "https://fly.io/docs/about/pricing/",
+      "headquarters": "United States (Chicago, IL)",
+      "us_datacenters": true,
+      "us_locations": ["Ashburn, VA", "Chicago, IL", "Dallas, TX", "Los Angeles, CA", "Seattle, WA", "Secaucus, NJ"],
+      "categories": ["paas"],
+      "notes": "Container-based edge PaaS ideal for Docker, Node.js, and Python apps; pay-as-you-go usage billing."
+    },
+    {
+      "id": "render",
+      "name": "Render",
+      "website": "https://render.com",
+      "pricing_url": "https://render.com/pricing",
+      "headquarters": "United States (San Francisco, CA)",
+      "us_datacenters": true,
+      "us_locations": ["Oregon (US West)", "Ohio (US East)", "Virginia (US East)"],
+      "categories": ["paas"],
+      "notes": "Managed PaaS for Node.js, Python, Docker, and PostgreSQL with flat monthly instance pricing."
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "website": "https://www.cloudflare.com",
+      "pricing_url": "https://www.cloudflare.com/plans/developer-platform/",
+      "headquarters": "United States (San Francisco, CA)",
+      "us_datacenters": true,
+      "us_locations": ["50+ US Edge PoPs"],
+      "categories": ["paas"],
+      "notes": "Workers & Pages offer generous free tier for static/edge sites and a flat $5/mo Paid plan for serverless compute."
+    }
+  ]
+}
