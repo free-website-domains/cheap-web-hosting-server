@@ -47,13 +47,13 @@ The phrase *"cheap web hosting server"* covers two very different user jobs:
 | Month-to-month without multi-year lock-in | [No-Contract Monthly Hosting](monthly-hosting/README.md) |
 | Understand renewal pricing math | [Renewal Cost Calculator Methodology](renewal-cost-calculator/README.md) |
 
-### Provider Deep-Dives & Comparisons
-- [Hostinger Pricing & Renewal Breakdown](providers/hostinger/README.md)
-- [IONOS Pricing & Renewal Breakdown](providers/ionos/README.md)
-- [Namecheap Pricing & Renewal Breakdown](providers/namecheap/README.md)
-- [Hetzner US Cloud VPS Breakdown](providers/hetzner/README.md)
-- [Hostinger vs Namecheap (3-Year True Cost)](comparisons/hostinger-vs-namecheap/README.md)
-- [Shared Hosting vs Cheap VPS](comparisons/shared-vs-vps/README.md)
+### Provider Deep-Dives & Head-to-Head Comparisons
+- **Providers:** [Hostinger](providers/hostinger/README.md) · [IONOS](providers/ionos/README.md) · [Namecheap](providers/namecheap/README.md) · [Hetzner US VPS](providers/hetzner/README.md)
+- **All Comparisons Index:** [Head-to-Head Hosting & VPS Comparisons](comparisons/README.md)
+- **Hetzner vs Everyone (VPS & Cloud):**
+  - [Hetzner vs DigitalOcean](comparisons/hetzner-vs-digitalocean/README.md) · [Hetzner vs Vultr](comparisons/hetzner-vs-vultr/README.md) · [Hetzner vs Akamai (Linode)](comparisons/hetzner-vs-linode/README.md) · [Hetzner vs OVHcloud](comparisons/hetzner-vs-ovhcloud/README.md) · [Hetzner vs Hostinger](comparisons/hetzner-vs-hostinger/README.md) · [Hetzner vs IONOS](comparisons/hetzner-vs-ionos/README.md) · [Hetzner vs RackNerd](comparisons/hetzner-vs-racknerd/README.md)
+- **Shared & WordPress Comparisons:**
+  - [Hostinger vs Namecheap](comparisons/hostinger-vs-namecheap/README.md) · [Hostinger vs Bluehost](comparisons/hostinger-vs-bluehost/README.md) · [Hostinger vs SiteGround](comparisons/hostinger-vs-siteground/README.md) · [InterServer vs Hostinger](comparisons/interserver-vs-hostinger/README.md) · [Namecheap vs Bluehost](comparisons/namecheap-vs-bluehost/README.md) · [IONOS vs Namecheap](comparisons/ionos-vs-namecheap/README.md) · [Shared vs VPS](comparisons/shared-vs-vps/README.md)
 
 ---
 
