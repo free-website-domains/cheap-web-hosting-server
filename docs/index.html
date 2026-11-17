@@ -12,8 +12,8 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <div>
+    <header class="masthead">
+      <div class="masthead-copy">
         <h1>Cheap Hosting Finder &amp; True Cost Calculator</h1>
         <p class="subtitle">
           Compare <strong>real 1 to 3 year hosting costs</strong>: promo rates, renewal spikes, US data centers, and technical stack requirements, without affiliate hype.
@@ -23,6 +23,24 @@
         GitHub Repo &amp; CLI
       </a>
     </header>
+
+    <section class="readings-panel" aria-label="Live Cost Readings">
+      <div class="reading-cell">
+        <span class="reading-label">Lowest effective rate</span>
+        <span class="reading-value" id="readingLowest">$1.08/mo</span>
+        <span class="reading-note" id="readingLowestPlan">RackNerd 1GB KVM</span>
+      </div>
+      <div class="reading-cell">
+        <span class="reading-label">Zero-spike options</span>
+        <span class="reading-value" id="readingFlatCount">10</span>
+        <span class="reading-note" id="readingFlatNote">Flat renewal rate plans</span>
+      </div>
+      <div class="reading-cell">
+        <span class="reading-label">Steepest renewal jump</span>
+        <span class="reading-value reading-bad" id="readingSpike">+1300%</span>
+        <span class="reading-note" id="readingSpikePlan">IONOS Web Hosting Plus</span>
+      </div>
+    </section>
 
     <section class="grid-controls" aria-label="Hosting Filters">
       <div class="control-group">
@@ -69,6 +87,23 @@
       </div>
     </section>
 
+    <section class="diff-panel" aria-label="Side-by-Side True Cost Diff">
+      <div class="diff-header">
+        <div>
+          <h2>True Cost Diff</h2>
+          <p class="diff-sub">Compare any two plans over your selected horizon to expose renewal traps.</p>
+        </div>
+        <div class="diff-pickers">
+          <label class="sr-only" for="compareA">Plan A</label>
+          <select id="compareA"></select>
+          <span class="diff-vs">vs</span>
+          <label class="sr-only" for="compareB">Plan B</label>
+          <select id="compareB"></select>
+        </div>
+      </div>
+      <div class="diff-grid" id="diffBody"></div>
+    </section>
+
     <div class="summary-bar">
       <span id="resultCount">Loading plans…</span>
       <span>Sorted by lowest <strong>Effective Monthly Cost</strong></span>
@@ -90,15 +125,9 @@
         <tbody id="resultsBody"></tbody>
       </table>
     </div>
-
-    <section class="callout">
-      <h2>Why Effective Monthly Cost Matters (Example: IONOS Plus vs Hetzner CX22)</h2>
-      <p>
-        An advertised <code>$1.00/mo</code> shared plan (IONOS Plus) renews at <code>$14.00/mo</code> after year 1, costing <strong>$348.00</strong> over 36 months (<code>$9.67/mo</code> effective). Meanwhile, a flat <code>$4.99/mo</code> Hetzner CX22 US Linux VPS (4 GB RAM, 2 vCPU) costs <strong>$179.64</strong> over the same 36 months with zero renewal surprises.
-      </p>
-    </section>
   </div>
 
+  <script src="./data/bundle.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
