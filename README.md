@@ -10,6 +10,8 @@ This open-source repository compares **shared web hosting**, **cheap Linux VPS s
 - **Structured Dataset:** [`data/providers.json`](data/providers.json) · [`data/plans.json`](data/plans.json) · [`data/pricing-history.json`](data/pricing-history.json)
 - **Python CLI & Calculator:** [`hosting_finder.py`](hosting_finder.py) · [`src/hosting_finder/calculator.py`](src/hosting_finder/calculator.py)
 
+![Cheap Hosting Finder & True Cost Calculator](docs/assets/preview-desktop.png)
+
 ---
 
 ## Cheapest Plans That Don't Spike on Renewal (`$1–$5/mo` Flat Pricing)
