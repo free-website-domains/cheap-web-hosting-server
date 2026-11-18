@@ -1,5 +1,5 @@
-# Hetzner Cloud US VPS Breakdown
+# Hetzner Cloud US VPS breakdown
 
-- **US Data Centers:** Ashburn, VA (US East); Hillsboro, OR (US West)
-- **Pricing Model:** Flat hourly/monthly billing (`$4.99/mo` for CX22: 2 vCPU, 4 GB RAM, 40 GB NVMe), zero renewal traps, no multi-year contract.
-- **Best For:** Developers running Docker, Node.js, Python, Go, or self-hosted WordPress/databases who know basic Linux SSH administration.
+Hetzner operates US data centers in Ashburn (VA) and Hillsboro (OR). Billing is hourly or monthly (`$4.99/mo` for CX22: 2 vCPU, 4 GB RAM, 40 GB NVMe) with no renewal hikes and no multi-year contracts.
+
+It fits developers running Docker, Node.js, Python, Go, or self-hosted WordPress and databases who are comfortable managing Linux over SSH.
